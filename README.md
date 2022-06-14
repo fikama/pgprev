@@ -15,7 +15,8 @@ On deafault, pgprev will open all of the tables that are present in chosen datab
 - `-q` provide exact (single) query
 - `-p` provide connection URI for connecting to Postgres server
 
-\* files syntax looks like this:```
+\* files syntax looks like this:
+```
 SELECT * FROM pg_database
 SELECT * FROM pg_class
 ```
